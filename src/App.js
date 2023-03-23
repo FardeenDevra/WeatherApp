@@ -8,7 +8,7 @@ import InputLocation from './Componenet/InputLocation';
 function App() {
   return (
     <div className='container'>
-      <div className='row row1 mt-1'>
+      <div className='row row1 mt-2 mb-2'>
         <div className='col-md-8 col-sm-12'>
           <Heading />
           <InputLocation />

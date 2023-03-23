@@ -4,7 +4,7 @@ import axios from 'axios'
 import Weather from './Weather'
 import ReportDetail from './ReportDetail'
 import Error from './Error'
-const { WEATHER_URL } = process.env
+const { REACT_APP_API_ENDPOINT } = process.env
 function InputLocation() {
 
    const [locationName, setLoactionName] = useState('')

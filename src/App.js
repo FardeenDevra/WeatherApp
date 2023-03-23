@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { useState } from 'react';
+import axios from 'axios';
+import './stylemain.css';
+import Heading from './Componenet/Heading';
+import InputLocation from './Componenet/InputLocation';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className='container'>
+      <div className='row row1 mt-1'>
+        <div className='col-md-8 col-sm-12'>
+          <Heading />
+          <InputLocation />
+        </div>
+      </div>
+    </div >
   );
 }
 

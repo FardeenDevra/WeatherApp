@@ -14,6 +14,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## 'Demo Clip'
+![vlc-record-2023-04-10-16h14m48s-ScreenRecorderProject2 mp4-](https://user-images.githubusercontent.com/108485599/230887737-881d9e35-2134-4f6b-8670-513ca4504f35.gif)
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
